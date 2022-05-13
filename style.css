@@ -6,6 +6,7 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --brand-beige: hsla(39, 100%, 97%);
 
   font-size: 62.5%;
 }
@@ -59,4 +60,26 @@ button {
   gap: 1.6rem;
   margin-right: auto;
   margin-left: auto;
+}
+.stats {
+  width: 32.7rem;
+  height: 47rem;
+  margin-inline: auto;
+  background-color: var(--brand-beige);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+}
+.stat h3 {
+  font-size: 4.8rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 0.4rem;
+}
+.stat p {
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 150%;
 }
